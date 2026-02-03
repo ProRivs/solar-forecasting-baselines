@@ -4,20 +4,20 @@
   
 # It answers:
 
-  What data belongs here?
+- What data belongs here?
   
-  Where does it come from?
+- Where does it come from?
   
-  What is included / excluded?
+- What is included / excluded?
   
-  What are licensing or privacy constraints?
+- What are licensing or privacy constraints?
   
-  Why data may be missing from the repo
+- Why data may be missing from the repo
   
 # This is critical because:
 
-  Data is often large, restricted, or external
+- Data is often large, restricted, or external
   
-  You may not commit raw data to GitHub
+- You may not commit raw data to GitHub
   
-  Reproducibility depends on data clarity
+- Reproducibility depends on data clarity
