@@ -23,3 +23,33 @@ Methods are designed to be globally applicable and are validated using condition
 
 ## Status
 Project initialized. Baseline models and datasets will be added incrementally.
+
+---
+
+## Data Source
+Solar irradiance and temperature data are obtained from the NASA POWER project
+(hourly, satellite/reanalysis-based estimates).
+
+Primary variables:
+- Global Horizontal Irradiance (ALLSKY_SFC_SW_DWN)
+- Ambient Temperature at 2m (T2M)
+
+Location:
+- Maroua, Cameroon (Sahelian stress-test environment)
+
+See `data/README.md` for full data documentation, missingness, and limitations.
+
+---
+
+## Repository Structure
+
+```text
+notebooks/
+  00_data_preparation.ipynb        Data cleaning + quality checks
+  01_persistence_baseline.ipynb    Persistence benchmark forecast
+  02_statistical_baseline.ipynb    Simple regression / random forest baseline
+
+data/
+  README.md                        Dataset provenance + quality metrics
+  Dataset_phase_1.csv              Raw NASA POWER export
+  Dataset_phase_1_clean.csv        Cleaned dataset used for modeling
