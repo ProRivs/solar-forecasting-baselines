@@ -53,3 +53,9 @@ data/
   README.md                        Dataset provenance + quality metrics
   Dataset_phase_1.csv              Raw NASA POWER export
   Dataset_phase_1_clean.csv        Cleaned dataset used for modeling
+```
+
+## Evaluation Philosophy
+
+Metric definitions and grid-aware interpretation are documented in:
+`evaluation/metrics.md`
