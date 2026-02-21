@@ -18,8 +18,7 @@ Operationally, MAE represents typical “exposure” to forecast error:
 MAE is interpreted as **average operator exposure**.
 
 ## MAPE (Mean Absolute Percentage Error)
-MAPE can be misleading for solar because irradiance approaches zero at night and is
-low during dawn/dusk. Percentage errors explode when the denominator is small.
+MAPE can be misleading for solar because irradiance approaches zero at night and is low during dawn/dusk. Percentage errors explode when the denominator is small.
 For this reason, MAPE is computed only for hours above a low-irradiance threshold
 (e.g., GHI > 50 Wh/m²).
 
