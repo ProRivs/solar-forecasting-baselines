@@ -59,3 +59,12 @@ data/
 
 Metric definitions and grid-aware interpretation are documented in:
 `evaluation/metrics.md`
+
+## Phase 1 Results (Test Year 2025)
+
+Linear regression reduced:
+- RMSE by ~32%
+- MAE by ~25%
+- MAPE (>50 Wh/m²) by ~50%
+
+This indicates meaningful improvement over persistence in ramp anticipation and reserve risk reduction.
