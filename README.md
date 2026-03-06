@@ -51,8 +51,8 @@ notebooks/
 
 data/
   README.md                        Dataset provenance + quality metrics
-  Dataset_phase_1.csv              Raw NASA POWER export
-  Dataset_phase_1_clean.csv        Cleaned dataset used for modeling
+  raw/                             Raw NASA POWER export
+  processed/                       Cleaned dataset used for modeling + 
 ```
 
 ## Evaluation Philosophy
